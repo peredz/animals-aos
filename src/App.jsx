@@ -15,29 +15,26 @@ function App() {
 
   return (
     <div className="app">
-      {/* Фон с затемнением */}
       <div className="background">
         <img src={bg} alt="Фон" className="bg-image" />
         <div className="overlay"></div>
       </div>
 
-      {/* Пустое пространство для скролла */}
       <div className="spacer"></div>
 
-      {/* Животные */}
-      <div className="animal" /* TODO: добавить data-aos */>
+      <div className="animal">
         <img src={sheep} alt="Овца" />
       </div>
 
-      <div className="animal" /* TODO: добавить data-aos */>
+      <div className="animal">
         <img src={caw} alt="Корова" />
       </div>
 
-      <div className="animal" /* TODO: добавить data-aos */>
+      <div className="animal">
         <img src={pig} alt="Свинья" />
       </div>
 
-      <div className="animal" /* TODO: добавить data-aos */>
+      <div className="animal">
         <img src={frog} alt="Лягушка" />
       </div>
     </div>
